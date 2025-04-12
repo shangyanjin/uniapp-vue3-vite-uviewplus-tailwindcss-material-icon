@@ -6,8 +6,8 @@
       </view>
       <view class="m-10 mt-10">
         <button :disabled="false" :loading="false" :open-type="agreement ? 'getPhoneNumber' : 'error'"
-          hover-class="hover-button-class" @getphonenumber="getPhoneNumberHandle" @click="loginHandle"
-          class="text-white border-none h-[100%] from-cyan-300 to-cyan-500 bg-gradient-to-r">
+          class="text-white border-none h-[100%] from-cyan-300 to-cyan-500 bg-gradient-to-r hover:from-cyan-500 hover:to-cyan-500"
+          @getphonenumber="getPhoneNumberHandle" @click="loginHandle">
           微信登录
         </button>
       </view>
@@ -102,7 +102,4 @@ const getPhoneNumberHandle = async (e: any) => {
 </script>
 
 <style scoped lang="scss">
-.hover-button-class {
-  @apply from-cyan-500 to-cyan-500;
-}
 </style>
