@@ -3,6 +3,14 @@
 ## 项目简介
 一个基于 Vue3 + Vite + TypeScript 的 Uniapp 基础模板，集成了 TailwindCSS、uni-ui、Pinia、Sass、uView Plus 、Google Material Design 图标库等技术栈
 
+## 项目截图
+![项目截图](screenshot.png)
+
+参考:
+https://github.com/hy353/uniapp-vue3-vite-tailwindcss
+
+非前端专业人士，本项目仅供参考学习，不提供任何技术支持和维护，使用风险自负。
+
 
 安装依赖
 npm install
