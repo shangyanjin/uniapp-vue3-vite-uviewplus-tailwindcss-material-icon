@@ -12,12 +12,13 @@ https://github.com/hy353/uniapp-vue3-vite-tailwindcss
 非前端专业人士，本项目仅供参考学习，不提供任何技术支持和维护，使用风险自负。
 
 
-安装依赖
-npm install
-开发环境运行
-npm run dev # H5 开发环境
-npm run dev:mp-weixin # 微信小程序开发环境
-npm run dev:app # App 开发环境
+##  安装依赖
+- npm install
+
+## 开发环境运行
+- npm run dev # H5 开发环境
+- npm run dev:mp-weixin # 微信小程序开发环境
+- npm run dev:app # App 开发环境
 
 
 ## 核心框架
